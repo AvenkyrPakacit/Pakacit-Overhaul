@@ -1,5 +1,7 @@
 inorganic_inorganics_expanded_ore_light
 
+[OBJECT:INORGANIC]
+
 -Sedimentary
 
 --Vein
