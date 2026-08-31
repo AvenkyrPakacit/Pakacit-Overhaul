@@ -159,6 +159,31 @@ PRISONER
 
 In the absence of one of these, it will use their standard creature/profession tile, but you should include all seven of these for a given creature if you want multiple appointments to display properly.  The picture multiple appointments is selected in the order given above, but if a tile doesn't exist for the first appointment, it will jump down to the regular profession tile.
 
+-Elves
+[TILE_PAGE:ELVES]
+	[FILE:entity_creatures/pakacitelves.png]
+	[TILE_DIM:16:16]
+	[PAGE_DIM:16:16]
+
+[CREATURE_GRAPHICS:ELF]
+-Row0
+	[DEFAULT:ELVES:0:0:ADD_COLOR]
+	[ANIMAL_CARETAKER:ELVES:1:0:ADD_COLOR:DEFAULT]
+	[ANIMAL_DISSECTOR:ELVES:2:0:ADD_COLOR:DEFAULT]
+	[ANIMAL_TRAINER:ELVES:3:0:ADD_COLOR:DEFAULT]
+	[BOWYER:ELVES:4:0:ADD_COLOR:DEFAULT]
+	[CARPENTER:ELVES:5:0:ADD_COLOR:DEFAULT]
+	[CHILD:ELVES:6:0:ADD_COLOR:DEFAULT]
+	[ENGRAVER:ELVES:7:0:ADD_COLOR:DEFAULT]
+	[HUNTER:ELVES:8:0:ADD_COLOR:DEFAULT]
+	[MASON:ELVES:9:0:ADD_COLOR:DEFAULT]
+	[METALSMITH:ELVES:10:0:ADD_COLOR:DEFAULT]
+	[MINER:ELVES:11:0:ADD_COLOR:DEFAULT]
+	[RANGER:ELVES:12:0:ADD_COLOR:DEFAULT]
+	[TRAPPER:ELVES:13:0:ADD_COLOR:DEFAULT]
+	[STONEWORKER:ELVES:14:0:ADD_COLOR:DEFAULT]
+	[WOODCUTTER:ELVES:15:0:ADD_COLOR:DEFAULT]
+
 -Humans
 [TILE_PAGE:HUMANS]
 	[FILE:entity_creatures/pakacithumans.png]
