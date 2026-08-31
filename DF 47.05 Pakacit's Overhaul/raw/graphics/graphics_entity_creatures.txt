@@ -2,6 +2,7 @@ graphics_entity_creatures
 
 [OBJECT:GRAPHICS]
 
+-Dwarves
 [TILE_PAGE:DWARVES]
 	[FILE:entity_creatures/pakacitdwarves.png]
 	[TILE_DIM:16:16]
@@ -157,3 +158,28 @@ SLAVE
 PRISONER
 
 In the absence of one of these, it will use their standard creature/profession tile, but you should include all seven of these for a given creature if you want multiple appointments to display properly.  The picture multiple appointments is selected in the order given above, but if a tile doesn't exist for the first appointment, it will jump down to the regular profession tile.
+
+-Humans
+[TILE_PAGE:HUMANS]
+	[FILE:entity_creatures/pakacithumans.png]
+	[TILE_DIM:16:16]
+	[PAGE_DIM:16:16]
+
+[CREATURE_GRAPHICS:HUMAN]
+-Row0
+	[DEFAULT:HUMANS:0:0:ADD_COLOR]
+	[ANIMAL_CARETAKER:HUMANS:1:0:ADD_COLOR:DEFAULT]
+	[ANIMAL_DISSECTOR:HUMANS:2:0:ADD_COLOR:DEFAULT]
+	[ANIMAL_TRAINER:HUMANS:3:0:ADD_COLOR:DEFAULT]
+	[BOWYER:HUMANS:4:0:ADD_COLOR:DEFAULT]
+	[CARPENTER:HUMANS:5:0:ADD_COLOR:DEFAULT]
+	[CHILD:HUMANS:6:0:ADD_COLOR:DEFAULT]
+	[ENGRAVER:HUMANS:7:0:ADD_COLOR:DEFAULT]
+	[HUNTER:HUMANS:8:0:ADD_COLOR:DEFAULT]
+	[MASON:HUMANS:9:0:ADD_COLOR:DEFAULT]
+	[METALSMITH:HUMANS:10:0:ADD_COLOR:DEFAULT]
+	[MINER:HUMANS:11:0:ADD_COLOR:DEFAULT]
+	[RANGER:HUMANS:12:0:ADD_COLOR:DEFAULT]
+	[TRAPPER:HUMANS:13:0:ADD_COLOR:DEFAULT]
+	[STONEWORKER:HUMANS:14:0:ADD_COLOR:DEFAULT]
+	[WOODCUTTER:HUMANS:15:0:ADD_COLOR:DEFAULT]
